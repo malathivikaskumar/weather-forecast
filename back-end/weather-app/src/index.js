@@ -30,7 +30,8 @@ app.get("/weather/:city" , function(req, res){
 });
 
 async function getWeatherData(city) {
-    const apiKey = "fb853dc4f0063c9faeab1856a97ac3a4";
+  // api key removed as git hub restrictions 
+    const apiKey = "<api-key>";
     const weatherURL = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&APPID=${apiKey}&cnt=40`;
     try {
       const response = await fetch(weatherURL);

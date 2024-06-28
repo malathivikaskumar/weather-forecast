@@ -9,7 +9,7 @@
    npm install
    npm start
    app run on port 3000
-3. Open http://loclahost:3000 in browser
+3. Open http://localhost:3000 in browser
 
 4 Opens like this
 ![image1](https://github.com/malathivikaskumar/weather-forecast/assets/173597470/29f953ce-ad9b-4ff9-b8c5-2925e73b9f14)
